@@ -1,0 +1,32 @@
+.footer {
+    background: #0a1f44;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .footer img {
+    width: 120px;
+    margin-bottom: 1rem;
+  }
+  
+  .footer nav {
+    margin: 1rem 0;
+  }
+  
+  .footer nav a {
+    color: #fff;
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .footer nav a:hover {
+    color: #f39c12;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+  

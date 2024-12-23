@@ -1,0 +1,53 @@
+/* src/styles/Services.module.css */
+.services {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .serviceCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .serviceCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .serviceCard h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .serviceCard p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .serviceCard button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .serviceCard button:hover {
+    background-color: #0056b3;
+  }
+  

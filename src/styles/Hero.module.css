@@ -1,0 +1,117 @@
+/* src/styles/Hero.module.css */
+.hero {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+  }
+  
+  /* Content inside the Hero section */
+  .heroContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    /* background-color: rgba(0, 0, 0, 0.5); Semi-transparent background for readability */
+    border-radius: 10px;
+    max-width: 90%; /* Ensuring content doesn't stretch too wide */
+    width: 100%;
+  }
+  
+  /* Hero heading (h1) */
+  .heroContent h1 {
+    font-size: 2.5rem; /* Default large size */
+    margin-bottom: 20px;
+  }
+  
+  /* Hero paragraph */
+  .heroContent p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Call-to-action buttons */
+  .ctaButton {
+    background-color: #f5b500; /* Example color */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .ctaButton:hover {
+    background-color: #ff9900; /* Hover effect */
+  }
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .hero {
+      height: 60vh; /* Reduced height on mobile */
+    }
+  
+    .heroContent {
+      padding: 15px;
+      max-width: 80%; /* Make the content narrower */
+    }
+  
+    .heroContent h1 {
+      font-size: 2rem; /* Slightly smaller heading on mobile */
+    }
+  
+    .heroContent p {
+      font-size: 1rem; /* Smaller paragraph text */
+    }
+  
+    .ctaButton {
+      padding: 12px 25px; /* Smaller buttons on mobile */
+      font-size: 0.9rem; /* Smaller text size */
+    }
+  }
+  
+  /* Tablet View */
+  @media (max-width: 1024px) {
+    .hero {
+      height: 70vh; /* Adjust height for tablets */
+    }
+  
+    .heroContent h1 {
+      font-size: 2.2rem; /* Slightly smaller on tablets */
+    }
+  
+    .heroContent p {
+      font-size: 1.1rem;
+    }
+  
+    .ctaButton {
+      padding: 14px 28px;
+      font-size: 0.95rem;
+    }
+  }
+  
+  /* Desktop View */
+  @media (min-width: 1025px) {
+    .hero {
+      height: 100vh; /* Full height on desktop */
+    }
+  
+    .heroContent h1 {
+      font-size: 3rem; /* Larger heading on desktop */
+    }
+  
+    .heroContent p {
+      font-size: 1.3rem;
+    }
+  
+    .ctaButton {
+      padding: 18px 36px;
+      font-size: 1.1rem;
+    }
+  }
+  
