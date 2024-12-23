@@ -28,7 +28,7 @@ jobs:
 
       # Step 3: Install dependencies
       - name: Install dependencies
-        run: npm install
+        uses: bahmutov/npm-install@v1
 
       # Step 4: Run tests
       - name: Run tests
