@@ -25,6 +25,7 @@ const Hero = () => {
       <div className={styles.heroContent}>
         <h1>Professional Security Services You Can Trust!</h1>
         <p>From personal bodyguards to company security, we have you covered.</p>
+        <p>From personal bodyguards to company security, we have you covered.</p>
         <button className={styles.ctaButton}>Get a Quote</button>
         <button className={styles.ctaButton}>Learn More</button>
       </div>
