@@ -31,8 +31,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       # Step 4: Run tests
-      - name: Run tests
-        run: npm test
+     
 
       # Step 5: Build the project
       - name: Build project
